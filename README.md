@@ -9,8 +9,10 @@ Will:
     QtCreator-Help-About Plugins-Filter(Beautifier)-√
     Eidt-Preferences-Beautifier-Clang Format-Use Customized style
 
-
-
+Location like:
+    C:\Users\Administrator\AppData\Roaming\QtProject\qtcreator\styles
+    C:\Users\Administrator\AppData\Roaming\QtProject\qtcreator\beautifier\clangformat\my-clang-format
+    
 
 
 
