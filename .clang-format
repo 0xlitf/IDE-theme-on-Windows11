@@ -3,315 +3,315 @@ Language: Cpp
  
 BasedOnStyle: LLVM
  
-# è®¿é—®è¯´æ˜ç¬¦(publicã€privateç­‰)çš„åç§»
+# ·ÃÎÊËµÃ÷·û(public¡¢privateµÈ)µÄÆ«ÒÆ
 AccessModifierOffset: -4
  
-# å·¦æ‹¬å·(å·¦åœ†æ‹¬å·ã€å·¦å°–æ‹¬å·ã€å·¦æ–¹æ‹¬å·)åçš„å¯¹é½:
-# Align, DontAlign, AlwaysBreak(æ€»æ˜¯åœ¨å·¦æ‹¬å·åæ¢è¡Œ)
+# ×óÀ¨ºÅ(×óÔ²À¨ºÅ¡¢×ó¼âÀ¨ºÅ¡¢×ó·½À¨ºÅ)ºóµÄ¶ÔÆë:
+# Align, DontAlign, AlwaysBreak(×ÜÊÇÔÚ×óÀ¨ºÅºó»»ĞĞ)
 AlignAfterOpenBracket: Align
  
-# å¤šç»´æ•°ç»„ä¸­æ•°æ®çš„å¯¹é½æ–¹å¼
+# ¶àÎ¬Êı×éÖĞÊı¾İµÄ¶ÔÆë·½Ê½
 # AlignArrayOfStructure: Right
  
-# è¿ç»­èµ‹å€¼æ—¶ï¼Œå¯¹é½æ‰€æœ‰ç­‰å·
+# Á¬Ğø¸³ÖµÊ±£¬¶ÔÆëËùÓĞµÈºÅ
 AlignConsecutiveAssignments: true
  
-# å¯¹é½è¿ç»­ä½åŸŸå­—æ®µçš„é£æ ¼
+# ¶ÔÆëÁ¬ĞøÎ»Óò×Ö¶ÎµÄ·ç¸ñ
 #AlignConsecutiveBitFields:AcrossEmptyLinesAndComments
  
-# è¿ç»­å£°æ˜æ—¶ï¼Œå¯¹é½æ‰€æœ‰å£°æ˜çš„å˜é‡å
+# Á¬ĞøÉùÃ÷Ê±£¬¶ÔÆëËùÓĞÉùÃ÷µÄ±äÁ¿Ãû
 AlignConsecutiveDeclarations: true
  
-# å¯¹é½è¿ç»­å®å®šä¹‰çš„é£æ ¼
+# ¶ÔÆëÁ¬Ğøºê¶¨ÒåµÄ·ç¸ñ
 # AlignConsecutiveMacros: true
  
-# ç”¨äºåœ¨ä½¿ç”¨åæ–œæ æ¢è¡Œä¸­å¯¹é½åæ–œæ çš„é€‰é¡¹
+# ÓÃÓÚÔÚÊ¹ÓÃ·´Ğ±¸Ü»»ĞĞÖĞ¶ÔÆë·´Ğ±¸ÜµÄÑ¡Ïî
 # AlignEscapedNewlines: Left
  
-# æ°´å¹³å¯¹é½äºŒå…ƒå’Œä¸‰å…ƒè¡¨è¾¾å¼çš„æ“ä½œæ•°
+# Ë®Æ½¶ÔÆë¶şÔªºÍÈıÔª±í´ïÊ½µÄ²Ù×÷Êı
 AlignOperands: true
  
-# å¯¹é½è¿ç»­çš„å°¾éšçš„æ³¨é‡Š
+# ¶ÔÆëÁ¬ĞøµÄÎ²ËæµÄ×¢ÊÍ
 AlignTrailingComments: true
  
-# å¦‚æœå‡½æ•°è°ƒç”¨æˆ–å¸¦æ‹¬å·çš„åˆå§‹åŒ–åˆ—è¡¨ä¸é€‚åˆå…¨éƒ¨åœ¨ä¸€è¡Œæ—¶
-# å…è®¸å°†æ‰€æœ‰å‚æ•°æ”¾åˆ°ä¸‹ä¸€è¡Œï¼Œå³ä½¿BinPackArgumentsä¸ºfalse
+# Èç¹ûº¯Êıµ÷ÓÃ»ò´øÀ¨ºÅµÄ³õÊ¼»¯ÁĞ±í²»ÊÊºÏÈ«²¿ÔÚÒ»ĞĞÊ±
+# ÔÊĞí½«ËùÓĞ²ÎÊı·Åµ½ÏÂÒ»ĞĞ£¬¼´Ê¹BinPackArgumentsÎªfalse
 # AllowAllArgumentsOnNextLine: true
  
-# å…è®¸æ„é€ å‡½æ•°çš„åˆå§‹åŒ–å‚æ•°æ”¾åœ¨ä¸‹ä¸€è¡Œ
+# ÔÊĞí¹¹Ôìº¯ÊıµÄ³õÊ¼»¯²ÎÊı·ÅÔÚÏÂÒ»ĞĞ
 # AllowAllConstructorInitializersOnNextLine: true
  
-# å…è®¸å‡½æ•°å£°æ˜çš„æ‰€æœ‰å‚æ•°åœ¨æ”¾åœ¨ä¸‹ä¸€è¡Œ
+# ÔÊĞíº¯ÊıÉùÃ÷µÄËùÓĞ²ÎÊıÔÚ·ÅÔÚÏÂÒ»ĞĞ
 AllowAllParametersOfDeclarationOnNextLine: true
   
-# å…è®¸çŸ­çš„å—æ”¾åœ¨åŒä¸€è¡Œ(Always æ€»æ˜¯å°†çŸ­å—åˆå¹¶æˆä¸€è¡Œï¼ŒEmpty åªåˆå¹¶ç©ºå—)
+# ÔÊĞí¶ÌµÄ¿é·ÅÔÚÍ¬Ò»ĞĞ(Always ×ÜÊÇ½«¶Ì¿éºÏ²¢³ÉÒ»ĞĞ£¬Empty Ö»ºÏ²¢¿Õ¿é)
 AllowShortBlocksOnASingleLine: false
  
-# å…è®¸çŸ­çš„caseæ ‡ç­¾æ”¾åœ¨åŒä¸€è¡Œ
+# ÔÊĞí¶ÌµÄcase±êÇ©·ÅÔÚÍ¬Ò»ĞĞ
 AllowShortCaseLabelsOnASingleLine: false
  
-# å…è®¸çŸ­çš„enumsæ•°æ®æ”¾åœ¨åŒä¸€è¡Œ
+# ÔÊĞí¶ÌµÄenumsÊı¾İ·ÅÔÚÍ¬Ò»ĞĞ
 # AllowShortEnumsOnASingleLine: false
  
-# å…è®¸çŸ­çš„å‡½æ•°æ”¾åœ¨åŒä¸€è¡Œ: 
-# None, InlineOnly(å®šä¹‰åœ¨ç±»ä¸­), Empty(ç©ºå‡½æ•°), Inline(å®šä¹‰åœ¨ç±»ä¸­ï¼Œç©ºå‡½æ•°), All
+# ÔÊĞí¶ÌµÄº¯Êı·ÅÔÚÍ¬Ò»ĞĞ: 
+# None, InlineOnly(¶¨ÒåÔÚÀàÖĞ), Empty(¿Õº¯Êı), Inline(¶¨ÒåÔÚÀàÖĞ£¬¿Õº¯Êı), All
 AllowShortFunctionsOnASingleLine: Empty
  
-# å…è®¸çŸ­çš„ifè¯­å¥ä¿æŒåœ¨åŒä¸€è¡Œ
+# ÔÊĞí¶ÌµÄifÓï¾ä±£³ÖÔÚÍ¬Ò»ĞĞ
 # AllowShortIfStatementsOnASingleLine: Never
  
-# å…è®¸çŸ­çš„lambdasè¯­å¥ä¿æŒåœ¨åŒä¸€è¡Œ
+# ÔÊĞí¶ÌµÄlambdasÓï¾ä±£³ÖÔÚÍ¬Ò»ĞĞ
 # AllowShortLambdasOnASingleLine: Empty
  
-# å…è®¸çŸ­çš„å¾ªç¯ä¿æŒåœ¨åŒä¸€è¡Œ
+# ÔÊĞí¶ÌµÄÑ­»·±£³ÖÔÚÍ¬Ò»ĞĞ
 AllowShortLoopsOnASingleLine: true
  
-# æ€»æ˜¯åœ¨å®šä¹‰è¿”å›ç±»å‹åæ¢è¡Œ(deprecated)
+# ×ÜÊÇÔÚ¶¨Òå·µ»ØÀàĞÍºó»»ĞĞ(deprecated)
 AlwaysBreakAfterDefinitionReturnType: None
  
-# å‡½æ•°å£°æ˜è¿”å›ç±»å‹åæ˜¯å¦æ¢è¡Œ(None è‡ªåŠ¨ï¼ŒAllå…¨éƒ¨ï¼ŒTopLevel...)
+# º¯ÊıÉùÃ÷·µ»ØÀàĞÍºóÊÇ·ñ»»ĞĞ(None ×Ô¶¯£¬AllÈ«²¿£¬TopLevel...)
 AlwaysBreakAfterReturnType: None
  
-# æ€»æ˜¯åœ¨å¤šè¡Œstringå­—é¢é‡å‰æ¢è¡Œ
+# ×ÜÊÇÔÚ¶àĞĞstring×ÖÃæÁ¿Ç°»»ĞĞ
 AlwaysBreakBeforeMultilineStrings: false
  
-# æ€»æ˜¯åœ¨templateå£°æ˜åæ¢è¡Œ
+# ×ÜÊÇÔÚtemplateÉùÃ÷ºó»»ĞĞ
 # AlwaysBreakTemplateDeclarations: No
  
-# falseè¡¨ç¤ºå‡½æ•°å®å‚è¦ä¹ˆéƒ½åœ¨åŒä¸€è¡Œï¼Œè¦ä¹ˆéƒ½å„è‡ªä¸€è¡Œ
+# false±íÊ¾º¯ÊıÊµ²ÎÒªÃ´¶¼ÔÚÍ¬Ò»ĞĞ£¬ÒªÃ´¶¼¸÷×ÔÒ»ĞĞ
 BinPackArguments: true
  
-# falseè¡¨ç¤ºå‡½æ•°å®å‚è¦ä¹ˆéƒ½åœ¨åŒä¸€è¡Œï¼Œè¦ä¹ˆéƒ½å„è‡ªä¸€è¡Œ 
+# false±íÊ¾º¯ÊıÊµ²ÎÒªÃ´¶¼ÔÚÍ¬Ò»ĞĞ£¬ÒªÃ´¶¼¸÷×ÔÒ»ĞĞ 
 BinPackParameters: true
  
 # The BitFieldColonSpacingStyle to use for bitfields.
 # BitFieldColonSpacing: Both
  
-# å¤§æ‹¬å·çš„æ¢è¡Œè§„åˆ™
+# ´óÀ¨ºÅµÄ»»ĞĞ¹æÔò
 BreakBeforeBraces: Custom
  
-# å¤§æ‹¬å·æ¢è¡Œï¼Œåªæœ‰å½“ BreakBeforeBraces è®¾ç½®ä¸ºCustomæ—¶æ‰æœ‰æ•ˆ
+# ´óÀ¨ºÅ»»ĞĞ£¬Ö»ÓĞµ± BreakBeforeBraces ÉèÖÃÎªCustomÊ±²ÅÓĞĞ§
 BraceWrapping:
-  # case è¯­å¥åé¢
+  # case Óï¾äºóÃæ
   # AfterCaseLabel: true
-  # classå®šä¹‰åé¢
+  # class¶¨ÒåºóÃæ
   AfterClass: false
-  # æ§åˆ¶è¯­å¥åé¢
+  # ¿ØÖÆÓï¾äºóÃæ
   AfterControlStatement: false
-  # enumå®šä¹‰åé¢
+  # enum¶¨ÒåºóÃæ
   AfterEnum: false
-  # å‡½æ•°å®šä¹‰åé¢
+  # º¯Êı¶¨ÒåºóÃæ
   AfterFunction: false
-  # å‘½åç©ºé—´å®šä¹‰åé¢
+  # ÃüÃû¿Õ¼ä¶¨ÒåºóÃæ
   AfterNamespace: false
-  # ObjCå®šä¹‰åé¢
+  # ObjC¶¨ÒåºóÃæ
   AfterObjCDeclaration: false
-  # structå®šä¹‰åé¢
+  # struct¶¨ÒåºóÃæ
   AfterStruct: false
-  # unionå®šä¹‰åé¢
+  # union¶¨ÒåºóÃæ
   AfterUnion: false
-  # extern å¯¼å‡ºå—åé¢
+  # extern µ¼³ö¿éºóÃæ
   AfterExternBlock: false
-  # catchä¹‹å‰
+  # catchÖ®Ç°
   BeforeCatch: false
-  # elseä¹‹å‰
+  # elseÖ®Ç°
   BeforeElse: false
   #BeforeLambdaBody: true
   #BeforeWhile: true
-  # ç¼©è¿›å¤§æ‹¬å·(æ•´ä¸ªå¤§æ‹¬å·æ¡†èµ·æ¥çš„éƒ¨åˆ†éƒ½ç¼©è¿›)
+  # Ëõ½ø´óÀ¨ºÅ(Õû¸ö´óÀ¨ºÅ¿òÆğÀ´µÄ²¿·Ö¶¼Ëõ½ø)
   IndentBraces: true
-  # ç©ºå‡½æ•°çš„å¤§æ‹¬å·æ˜¯å¦å¯ä»¥åœ¨ä¸€è¡Œ
+  # ¿Õº¯ÊıµÄ´óÀ¨ºÅÊÇ·ñ¿ÉÒÔÔÚÒ»ĞĞ
   SplitEmptyFunction: false
-  # ç©ºè®°å½•ä½“(struct/class/union)çš„å¤§æ‹¬å·æ˜¯å¦å¯ä»¥åœ¨ä¸€è¡Œ
+  # ¿Õ¼ÇÂ¼Ìå(struct/class/union)µÄ´óÀ¨ºÅÊÇ·ñ¿ÉÒÔÔÚÒ»ĞĞ
   SplitEmptyRecord: false
-  # ç©ºåå­—ç©ºé—´çš„å¤§æ‹¬å·æ˜¯å¦å¯ä»¥åœ¨ä¸€è¡Œ
+  # ¿ÕÃû×Ö¿Õ¼äµÄ´óÀ¨ºÅÊÇ·ñ¿ÉÒÔÔÚÒ»ĞĞ
   SplitEmptyNamespace: false
  
-# åœ¨äºŒå…ƒè¿ç®—ç¬¦å‰æ¢è¡Œ: 
-# None(åœ¨æ“ä½œç¬¦åæ¢è¡Œ), NonAssignment(åœ¨éèµ‹å€¼çš„æ“ä½œç¬¦å‰æ¢è¡Œ), All(åœ¨æ“ä½œç¬¦å‰æ¢è¡Œ)
+# ÔÚ¶şÔªÔËËã·ûÇ°»»ĞĞ: 
+# None(ÔÚ²Ù×÷·ûºó»»ĞĞ), NonAssignment(ÔÚ·Ç¸³ÖµµÄ²Ù×÷·ûÇ°»»ĞĞ), All(ÔÚ²Ù×÷·ûÇ°»»ĞĞ)
 BreakBeforeBinaryOperators: None
   
 #BreakBeforeConceptDeclarations: true
  
-# ä¸‰å…ƒè¿ç®—æ“ä½œç¬¦æ¢è¡Œä½ç½®ï¼ˆ?å’Œ: åœ¨æ–°è¡Œè¿˜æ˜¯å°¾éƒ¨ï¼‰
+# ÈıÔªÔËËã²Ù×÷·û»»ĞĞÎ»ÖÃ£¨?ºÍ: ÔÚĞÂĞĞ»¹ÊÇÎ²²¿£©
 BreakBeforeTernaryOperators: true
   
-# è¦ä½¿ç”¨çš„æ„é€ å‡½æ•°åˆå§‹åŒ–å¼æ ·å¼
+# ÒªÊ¹ÓÃµÄ¹¹Ôìº¯Êı³õÊ¼»¯Ê½ÑùÊ½
 BreakConstructorInitializers: BeforeComma
  
 # BreakInheritanceList: BeforeComma
 # BreakStringLiterals: true
  
-# æ¯è¡Œå­—ç¬¦çš„é™åˆ¶ï¼Œ0è¡¨ç¤ºæ²¡æœ‰é™åˆ¶
+# Ã¿ĞĞ×Ö·ûµÄÏŞÖÆ£¬0±íÊ¾Ã»ÓĞÏŞÖÆ
 ColumnLimit: 100
  
-# æè¿°å…·æœ‰ç‰¹æ®Šæ„ä¹‰çš„æ³¨é‡Šçš„æ­£åˆ™è¡¨è¾¾å¼ï¼Œå®ƒä¸åº”è¯¥è¢«åˆ†å‰²ä¸ºå¤šè¡Œæˆ–ä»¥å…¶å®ƒæ–¹å¼æ”¹å˜
+# ÃèÊö¾ßÓĞÌØÊâÒâÒåµÄ×¢ÊÍµÄÕıÔò±í´ïÊ½£¬Ëü²»Ó¦¸Ã±»·Ö¸îÎª¶àĞĞ»òÒÔÆäËü·½Ê½¸Ä±ä
 # CommentPragmas: ''
  
-# å¦‚æœä¸ºtrueï¼Œåˆ™è¿ç»­çš„åç§°ç©ºé—´å£°æ˜å°†åœ¨åŒä¸€è¡Œä¸Šã€‚
-# å¦‚æœä¸ºfalseï¼Œåˆ™åœ¨æ–°è¡Œä¸Šå£°æ˜æ¯ä¸ªåç§°ç©ºé—´ã€‚
+# Èç¹ûÎªtrue£¬ÔòÁ¬ĞøµÄÃû³Æ¿Õ¼äÉùÃ÷½«ÔÚÍ¬Ò»ĞĞÉÏ¡£
+# Èç¹ûÎªfalse£¬ÔòÔÚĞÂĞĞÉÏÉùÃ÷Ã¿¸öÃû³Æ¿Õ¼ä¡£
 CompactNamespaces: false
  
-# æ„é€ å‡½æ•°çš„åˆå§‹åŒ–åˆ—è¡¨è¦ä¹ˆéƒ½åœ¨åŒä¸€è¡Œï¼Œè¦ä¹ˆéƒ½å„è‡ªä¸€è¡Œ
+# ¹¹Ôìº¯ÊıµÄ³õÊ¼»¯ÁĞ±íÒªÃ´¶¼ÔÚÍ¬Ò»ĞĞ£¬ÒªÃ´¶¼¸÷×ÔÒ»ĞĞ
 ConstructorInitializerAllOnOneLineOrOnePerLine: false
  
-# æ„é€ å‡½æ•°çš„åˆå§‹åŒ–åˆ—è¡¨çš„ç¼©è¿›å®½åº¦
+# ¹¹Ôìº¯ÊıµÄ³õÊ¼»¯ÁĞ±íµÄËõ½ø¿í¶È
 ConstructorInitializerIndentWidth:  4
  
-# å»¶ç»­çš„è¡Œçš„ç¼©è¿›å®½åº¦
+# ÑÓĞøµÄĞĞµÄËõ½ø¿í¶È
 ContinuationIndentWidth: 4
  
-# å»é™¤C++11çš„åˆ—è¡¨åˆå§‹åŒ–çš„å¤§æ‹¬å·{åå’Œ}å‰çš„ç©ºæ ¼
+# È¥³ıC++11µÄÁĞ±í³õÊ¼»¯µÄ´óÀ¨ºÅ{ºóºÍ}Ç°µÄ¿Õ¸ñ
 Cpp11BracedListStyle: true
  
-# ç»§æ‰¿æœ€å¸¸ç”¨çš„æŒ‡é’ˆå’Œå¼•ç”¨çš„å¯¹é½æ–¹å¼
+# ¼Ì³Ğ×î³£ÓÃµÄÖ¸ÕëºÍÒıÓÃµÄ¶ÔÆë·½Ê½
 DerivePointerAlignment: false
  
-# å…³é—­æ ¼å¼åŒ–
+# ¹Ø±Õ¸ñÊ½»¯
 DisableFormat: false
  
-# ç©ºæ ¼æ£€æŸ¥
+# ¿Õ¸ñ¼ì²é
 #EmptyLineAfterAccessModifier: Leave
 #EmptyLineBeforeAccessModifier:  Leave
  
-# è‡ªåŠ¨æ£€æµ‹å‡½æ•°çš„è°ƒç”¨å’Œå®šä¹‰æ˜¯å¦è¢«æ ¼å¼ä¸ºæ¯è¡Œä¸€ä¸ªå‚æ•°(Experimental)
+# ×Ô¶¯¼ì²âº¯ÊıµÄµ÷ÓÃºÍ¶¨ÒåÊÇ·ñ±»¸ñÊ½ÎªÃ¿ĞĞÒ»¸ö²ÎÊı(Experimental)
 ExperimentalAutoDetectBinPacking: false
  
-# å¦‚æœä¸ºtrueï¼Œåˆ™clangæ ¼å¼ä¼šä¸ºçŸ­åç§°ç©ºé—´æ·»åŠ ç¼ºå°‘çš„åç§°ç©ºé—´ç»“å°¾æ³¨é‡Šï¼Œ
-# å¹¶ä¿®å¤æ— æ•ˆçš„ç°æœ‰åç§°ç»“æŸæ³¨é‡Š
+# Èç¹ûÎªtrue£¬Ôòclang¸ñÊ½»áÎª¶ÌÃû³Æ¿Õ¼äÌí¼ÓÈ±ÉÙµÄÃû³Æ¿Õ¼ä½áÎ²×¢ÊÍ£¬
+# ²¢ĞŞ¸´ÎŞĞ§µÄÏÖÓĞÃû³Æ½áÊø×¢ÊÍ
 FixNamespaceComments: true
  
-# ç¼©è¿›privateã€publicç­‰æ ‡ç­¾
+# Ëõ½øprivate¡¢publicµÈ±êÇ©
 # IndentAccessModifiers: true
  
-# ç¼©è¿›case
+# Ëõ½øcase
 # IndentCaseBlocks: false
   
-# ç¼©è¿›caseæ ‡ç­¾
+# Ëõ½øcase±êÇ©
 IndentCaseLabels: true
  
 #IndentExternBlock: AfterExternBlock
  
-# è¦ä½¿ç”¨çš„é¢„å¤„ç†å™¨æŒ‡ä»¤ç¼©è¿›æ ·å¼
+# ÒªÊ¹ÓÃµÄÔ¤´¦ÀíÆ÷Ö¸ÁîËõ½øÑùÊ½
 IndentPPDirectives: AfterHash
  
-# ç¼©è¿›å®½åº¦
+# Ëõ½ø¿í¶È
 IndentWidth: 4
  
-# å‡½æ•°è¿”å›ç±»å‹æ¢è¡Œæ—¶ï¼Œç¼©è¿›å‡½æ•°å£°æ˜æˆ–å‡½æ•°å®šä¹‰çš„å‡½æ•°å
+# º¯Êı·µ»ØÀàĞÍ»»ĞĞÊ±£¬Ëõ½øº¯ÊıÉùÃ÷»òº¯Êı¶¨ÒåµÄº¯ÊıÃû
 IndentWrappedFunctionNames: false
  
-# ä¿ç•™åœ¨å—å¼€å§‹å¤„çš„ç©ºè¡Œ
+# ±£ÁôÔÚ¿é¿ªÊ¼´¦µÄ¿ÕĞĞ
 KeepEmptyLinesAtTheStartOfBlocks: true
  
-# å¼€å§‹ä¸€ä¸ªå—çš„å®çš„æ­£åˆ™è¡¨è¾¾å¼
+# ¿ªÊ¼Ò»¸ö¿éµÄºêµÄÕıÔò±í´ïÊ½
 MacroBlockBegin: ''
  
-# ç»“æŸä¸€ä¸ªå—çš„å®çš„æ­£åˆ™è¡¨è¾¾å¼
+# ½áÊøÒ»¸ö¿éµÄºêµÄÕıÔò±í´ïÊ½
 MacroBlockEnd: ''
  
-# è¿ç»­ç©ºè¡Œçš„æœ€å¤§æ•°é‡
+# Á¬Ğø¿ÕĞĞµÄ×î´óÊıÁ¿
 MaxEmptyLinesToKeep: 10
  
-# å‘½åç©ºé—´çš„ç¼©è¿›: None, Inner(ç¼©è¿›åµŒå¥—çš„å‘½åç©ºé—´ä¸­çš„å†…å®¹), All
+# ÃüÃû¿Õ¼äµÄËõ½ø: None, Inner(Ëõ½øÇ¶Ì×µÄÃüÃû¿Õ¼äÖĞµÄÄÚÈİ), All
 NamespaceIndentation: All
  
-# ä½¿ç”¨ObjCå—æ—¶ç¼©è¿›å®½åº¦
+# Ê¹ÓÃObjC¿éÊ±Ëõ½ø¿í¶È
 ObjCBlockIndentWidth: 4
  
-# åœ¨ObjCçš„@propertyåæ·»åŠ ä¸€ä¸ªç©ºæ ¼
+# ÔÚObjCµÄ@propertyºóÌí¼ÓÒ»¸ö¿Õ¸ñ
 ObjCSpaceAfterProperty: false
  
-# åœ¨ObjCçš„protocolåˆ—è¡¨å‰æ·»åŠ ä¸€ä¸ªç©ºæ ¼
+# ÔÚObjCµÄprotocolÁĞ±íÇ°Ìí¼ÓÒ»¸ö¿Õ¸ñ
 ObjCSpaceBeforeProtocolList: true
  
-# åœ¨call(åå¯¹å‡½æ•°è°ƒç”¨æ¢è¡Œçš„penalty
+# ÔÚcall(ºó¶Ôº¯Êıµ÷ÓÃ»»ĞĞµÄpenalty
 PenaltyBreakBeforeFirstCallParameter: 2
  
-# åœ¨ä¸€ä¸ªæ³¨é‡Šä¸­å¼•å…¥æ¢è¡Œçš„penalty
+# ÔÚÒ»¸ö×¢ÊÍÖĞÒıÈë»»ĞĞµÄpenalty
 PenaltyBreakComment: 300
  
-# ç¬¬ä¸€æ¬¡åœ¨<<å‰æ¢è¡Œçš„penalty
+# µÚÒ»´ÎÔÚ<<Ç°»»ĞĞµÄpenalty
 PenaltyBreakFirstLessLess:  120
  
-# åœ¨ä¸€ä¸ªå­—ç¬¦ä¸²å­—é¢é‡ä¸­å¼•å…¥æ¢è¡Œçš„penalty
+# ÔÚÒ»¸ö×Ö·û´®×ÖÃæÁ¿ÖĞÒıÈë»»ĞĞµÄpenalty
 PenaltyBreakString: 1000
  
-# å¯¹äºæ¯ä¸ªåœ¨è¡Œå­—ç¬¦æ•°é™åˆ¶ä¹‹å¤–çš„å­—ç¬¦çš„penalty
+# ¶ÔÓÚÃ¿¸öÔÚĞĞ×Ö·ûÊıÏŞÖÆÖ®ÍâµÄ×Ö·ûµÄpenalty
 PenaltyExcessCharacter: 1000000
  
-# å¯¹æ¯ä¸€ä¸ªç©ºæ ¼ç¼©è¿›å­—ç¬¦çš„penalty(ç›¸å¯¹äºå‰å¯¼çš„éç©ºæ ¼åˆ—è®¡ç®—)
+# ¶ÔÃ¿Ò»¸ö¿Õ¸ñËõ½ø×Ö·ûµÄpenalty(Ïà¶ÔÓÚÇ°µ¼µÄ·Ç¿Õ¸ñÁĞ¼ÆËã)
 # PenaltyIndentedWhitespace: 0 
  
-# å°†å‡½æ•°çš„è¿”å›ç±»å‹æ”¾åˆ°å®ƒè‡ªå·±çš„è¡Œçš„penalty
+# ½«º¯ÊıµÄ·µ»ØÀàĞÍ·Åµ½Ëü×Ô¼ºµÄĞĞµÄpenalty
 PenaltyReturnTypeOnItsOwnLine: 120
  
-# æŒ‡é’ˆå’Œå¼•ç”¨çš„å¯¹é½: Left, Right, Middle
+# Ö¸ÕëºÍÒıÓÃµÄ¶ÔÆë: Left, Right, Middle
 PointerAlignment: Left
  
-# å…è®¸é‡æ–°æ’ç‰ˆæ³¨é‡Š
+# ÔÊĞíÖØĞÂÅÅ°æ×¢ÊÍ
 ReflowComments: true
  
-# å…è®¸æ’åº#include
+# ÔÊĞíÅÅĞò#include
 SortIncludes: true
  
-# å…è®¸æ’åº using å£°æ˜é¡ºåº
+# ÔÊĞíÅÅĞò using ÉùÃ÷Ë³Ğò
 SortUsingDeclarations: false
  
-# åœ¨Cé£æ ¼ç±»å‹è½¬æ¢åæ·»åŠ ç©ºæ ¼
+# ÔÚC·ç¸ñÀàĞÍ×ª»»ºóÌí¼Ó¿Õ¸ñ
 SpaceAfterCStyleCast: false
  
-# åœ¨é€»è¾‘éæ“ä½œç¬¦(!)ä¹‹åæ’å…¥ä¸€ä¸ªç©ºæ ¼
+# ÔÚÂß¼­·Ç²Ù×÷·û(!)Ö®ºó²åÈëÒ»¸ö¿Õ¸ñ
 # SpaceAfterLogicalNot: false
  
-# åœ¨ template å…³é”®å­—åæ’å…¥ä¸€ä¸ªç©ºæ ¼
+# ÔÚ template ¹Ø¼ü×Öºó²åÈëÒ»¸ö¿Õ¸ñ
 SpaceAfterTemplateKeyword: false
  
-# å®šä¹‰åœ¨ä»€ä¹ˆæƒ…å†µä¸‹åœ¨æŒ‡é’ˆé™å®šç¬¦ä¹‹å‰æˆ–ä¹‹åæ”¾ç½®ç©ºæ ¼
+# ¶¨ÒåÔÚÊ²Ã´Çé¿öÏÂÔÚÖ¸ÕëÏŞ¶¨·ûÖ®Ç°»òÖ®ºó·ÅÖÃ¿Õ¸ñ
 # SpaceAroundPointerQualifiers: Before
  
-# åœ¨èµ‹å€¼è¿ç®—ç¬¦ä¹‹å‰æ·»åŠ ç©ºæ ¼
+# ÔÚ¸³ÖµÔËËã·ûÖ®Ç°Ìí¼Ó¿Õ¸ñ
 SpaceBeforeAssignmentOperators: true
  
-# å·¦åœ†æ‹¬å·ä¹‹å‰æ·»åŠ ä¸€ä¸ªç©ºæ ¼: Never, ControlStatements, Always
+# ×óÔ²À¨ºÅÖ®Ç°Ìí¼ÓÒ»¸ö¿Õ¸ñ: Never, ControlStatements, Always
 SpaceBeforeParens: ControlStatements
  
-# ç©ºæ ¼å°†åœ¨åŸºäºèŒƒå›´çš„forå¾ªç¯å†’å·ä¹‹å‰è¢«åˆ é™¤
+# ¿Õ¸ñ½«ÔÚ»ùÓÚ·¶Î§µÄforÑ­»·Ã°ºÅÖ®Ç°±»É¾³ı
 # SpaceBeforeRangeBasedForLoopColon: true
  
-# [ å‰æ˜¯å¦æ·»åŠ ç©ºæ ¼ï¼ˆæ•°ç»„åå’Œ[ä¹‹é—´ï¼ŒLambdasä¸ä¼šå—åˆ°å½±å“ï¼‰
-# è¿ç»­å¤šä¸ª [ åªè€ƒè™‘ç¬¬ä¸€ä¸ªï¼ˆåµŒå¥—æ•°ç»„ï¼Œå¤šç»´æ•°ç»„ï¼‰
+# [ Ç°ÊÇ·ñÌí¼Ó¿Õ¸ñ£¨Êı×éÃûºÍ[Ö®¼ä£¬Lambdas²»»áÊÜµ½Ó°Ïì£©
+# Á¬Ğø¶à¸ö [ Ö»¿¼ÂÇµÚÒ»¸ö£¨Ç¶Ì×Êı×é£¬¶àÎ¬Êı×é£©
 # SpaceBeforeSquareBrackets: false
  
-# åœ¨ç©ºçš„åœ†æ‹¬å·ä¸­æ·»åŠ ç©ºæ ¼
+# ÔÚ¿ÕµÄÔ²À¨ºÅÖĞÌí¼Ó¿Õ¸ñ
 SpaceInEmptyParentheses: false
  
-# åœ¨å°¾éšçš„è¯„è®ºå‰æ·»åŠ çš„ç©ºæ ¼æ•°(åªé€‚ç”¨äº//)
+# ÔÚÎ²ËæµÄÆÀÂÛÇ°Ìí¼ÓµÄ¿Õ¸ñÊı(Ö»ÊÊÓÃÓÚ//)
 SpacesBeforeTrailingComments: 3
  
-# åœ¨å°–æ‹¬å·çš„<åå’Œ>å‰æ·»åŠ ç©ºæ ¼
+# ÔÚ¼âÀ¨ºÅµÄ<ºóºÍ>Ç°Ìí¼Ó¿Õ¸ñ
 SpacesInAngles: false
  
-# åœ¨å®¹å™¨(ObjCå’ŒJavaScriptçš„æ•°ç»„å’Œå­—å…¸ç­‰)å­—é¢é‡ä¸­æ·»åŠ ç©ºæ ¼
+# ÔÚÈİÆ÷(ObjCºÍJavaScriptµÄÊı×éºÍ×ÖµäµÈ)×ÖÃæÁ¿ÖĞÌí¼Ó¿Õ¸ñ
 SpacesInContainerLiterals:  false
  
-# åœ¨Cé£æ ¼ç±»å‹è½¬æ¢çš„æ‹¬å·ä¸­æ·»åŠ ç©ºæ ¼
+# ÔÚC·ç¸ñÀàĞÍ×ª»»µÄÀ¨ºÅÖĞÌí¼Ó¿Õ¸ñ
 SpacesInCStyleCastParentheses: false
  
-# å¦‚æœä¸ºtrueï¼Œå°†åœ¨If/for/switch/whileæ¡ä»¶æ‹¬å·å‰åæ’å…¥ç©ºæ ¼ã€‚
+# Èç¹ûÎªtrue£¬½«ÔÚIf/for/switch/whileÌõ¼şÀ¨ºÅÇ°ºó²åÈë¿Õ¸ñ¡£
 # SpacesInConditionalStatement: true
  
-# åœ¨åœ†æ‹¬å·çš„(åå’Œ)å‰æ·»åŠ ç©ºæ ¼
+# ÔÚÔ²À¨ºÅµÄ(ºóºÍ)Ç°Ìí¼Ó¿Õ¸ñ
 SpacesInParentheses: false
  
-# åœ¨æ–¹æ‹¬å·çš„[åå’Œ]å‰æ·»åŠ ç©ºæ ¼ï¼Œlamdaè¡¨è¾¾å¼å’ŒæœªæŒ‡æ˜å¤§å°çš„æ•°ç»„çš„å£°æ˜ä¸å—å½±å“
+# ÔÚ·½À¨ºÅµÄ[ºóºÍ]Ç°Ìí¼Ó¿Õ¸ñ£¬lamda±í´ïÊ½ºÍÎ´Ö¸Ã÷´óĞ¡µÄÊı×éµÄÉùÃ÷²»ÊÜÓ°Ïì
 SpacesInSquareBrackets: false
  
-# æ ‡å‡†: Cpp03, Cpp11, Auto
+# ±ê×¼: Cpp03, Cpp11, Auto
 Standard: Cpp11
  
-# tabå®½åº¦
+# tab¿í¶È
 TabWidth: 4
  
-# ä½¿ç”¨tabå­—ç¬¦: Never, ForIndentation, ForContinuationAndIndentation, Always
+# Ê¹ÓÃtab×Ö·û: Never, ForIndentation, ForContinuationAndIndentation, Always
 UseTab: Never
