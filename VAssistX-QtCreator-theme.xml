@@ -25,7 +25,7 @@
   <style name="Local" foreground="#9cdcfe" bold="true" italic="true"/>
   <style name="Parameter" foreground="#d6bb9a"/>
   <style name="Global" foreground="#9aa7d6"/>
-  <style name="Field"/>
+  <style name="Field" foreground="#00c372"/>
   <style name="Static" foreground="#b9771e" italic="true"/>
   <style name="VirtualMethod" foreground="#ff8000" italic="true"/>
   <style name="Function" foreground="#ff8000" italic="true"/>
