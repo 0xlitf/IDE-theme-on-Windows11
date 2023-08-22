@@ -22,7 +22,7 @@
   <style name="Type" foreground="#ffd700"/>
   <style name="Concept" foreground="#4ec9b0"/>
   <style name="Namespace" foreground="#ffd700"/>
-  <style name="Local" foreground="#8baa41" bold="true" italic="true"/>
+  <style name="Local" foreground="#8baa41" italic="true"/>
   <style name="Parameter" foreground="#999999"/>
   <style name="Global" foreground="#9aa7d6"/>
   <style name="Field" foreground="#8baa41"/>
