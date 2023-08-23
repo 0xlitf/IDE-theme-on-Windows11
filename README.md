@@ -34,3 +34,6 @@ Qt Vs CMake Tools
 * [abbodi1406](https://github.com/abbodi1406)/[vcredist](https://github.com/abbodi1406/vcredist)
 
     https://github.com/abbodi1406/vcredist/tree/master
+
+Windows CMD make HardLink:
+mklink /H C:\Users\Calcifer\AppData\Roaming\QtProject\qtcreator\styles\VAssistX-QtCreator-theme.xml C:\0xlitf\VAssistX-QtCreator-theme\VAssistX-QtCreator-theme.xml
