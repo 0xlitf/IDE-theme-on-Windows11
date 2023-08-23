@@ -13,7 +13,7 @@
   <style name="ParenthesesMismatch" foreground="#b4b4b4"/>
   <style name="AutoComplete" foreground="#2c408a" background="#9aa7d6"/>
   <style name="CurrentLine" background="#373737"/>
-  <style name="CurrentLineNumber" foreground="#00ff00" bold="true"/>
+  <style name="CurrentLineNumber" foreground="#00ff00"/>
   <style name="Occurrences" background="#026cde"/>
   <style name="Occurrences.Unused" foreground="#8a7f2c"/>
   <style name="Occurrences.Rename" foreground="#ffaaaa" background="#fdfdfd"/>
@@ -73,7 +73,7 @@
   <style name="WarningContext" underlineColor="#d6c545" underlineStyle="DotLine"/>
   <style name="Error" underlineColor="#d65645" underlineStyle="SingleUnderline"/>
   <style name="ErrorContext" underlineColor="#d65645" underlineStyle="DotLine"/>
-  <style name="Declaration" bold="true"/>
+  <style name="Declaration"/>
   <style name="FunctionDefinition" foreground="#ff8000"/>
   <style name="OutputArgument" italic="true"/>
   <style name="StaticMember"/>
