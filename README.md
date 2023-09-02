@@ -37,3 +37,14 @@ Location like:
 ```
 mklink /H C:\Users\Calcifer\AppData\Roaming\QtProject\qtcreator\styles\VAssistX-QtCreator-theme.xml C:\0xlitf\VAssistX-QtCreator-theme\VAssistX-QtCreator-theme.xml
 ```
+## Modify QtCreator font
+create file "modify_qtcreator_font.css" in C:\Qt\Tools\QtCreator\bin:
+```
+QWidget {
+    font: 10pt "Segoe UI Semibold";
+}
+```
+make qtcreator.exe shortcut:
+```
+C:\Qt\Tools\QtCreator\bin\qtcreator.exe --stylesheet=modify_qtcreator_font.css
+```
