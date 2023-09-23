@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorCodeStyle>
-<!-- Written by QtCreator 11.0.2, 2023-09-20T17:18:43. -->
+<!-- Written by QtCreator 11.0.2, 2023-09-23T16:20:40. -->
 <qtcreator>
  <data>
   <variable>CodeStyleData</variable>
@@ -35,6 +35,6 @@
  </data>
  <data>
   <variable>DisplayName</variable>
-  <value type="QString">QtCreator-Preferences-C++-CurrentSettings-Import</value>
+  <value type="QString">QtCreator-Preferences-C++-CurrentSettings</value>
  </data>
 </qtcreator>
