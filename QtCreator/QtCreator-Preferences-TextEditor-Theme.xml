@@ -73,7 +73,7 @@
   <style name="WarningContext" underlineColor="#d6c545" underlineStyle="DotLine"/>
   <style name="Error" underlineColor="#d65645" underlineStyle="SingleUnderline"/>
   <style name="ErrorContext" underlineColor="#d65645" underlineStyle="DotLine"/>
-  <style name="Declaration" foreground="#8baa41"/>
+  <style name="Declaration"/>
   <style name="FunctionDefinition" foreground="#ff8000"/>
   <style name="OutputArgument" italic="true"/>
   <style name="StaticMember" foreground="#8baa41"/>
