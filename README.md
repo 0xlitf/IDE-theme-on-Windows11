@@ -1,4 +1,4 @@
-# VAssistX-QtCreator-theme
+# IDE theme on Windows11
 
 Run the included install_windows.bat
 
