@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <style-scheme version="1.0" name="QtCreator-Preferences-TextEditor-Theme">
-  <style name="Text" foreground="#dcdcdc" background="#1e1e1e"/>
+  <style name="Text" foreground="#ffffff" background="#1e1e1e"/>
   <style name="Link" foreground="#d6c540"/>
   <style name="Selection" foreground="#bec0c2" background="#1d545c"/>
   <style name="LineNumber" foreground="#bec0c2" background="#191919"/>
@@ -20,9 +20,9 @@
   <style name="Number" foreground="#b5cea8"/>
   <style name="String" foreground="#d69545"/>
   <style name="Type" foreground="#ffd700"/>
-  <style name="Concept" foreground="#4ec9b0"/>
+  <style name="Concept" foreground="#ffd700"/>
   <style name="Namespace" foreground="#ffd700"/>
-  <style name="Local" foreground="#8baa41" italic="true"/>
+  <style name="Local" foreground="#b6b6b6" italic="true"/>
   <style name="Parameter" foreground="#999999"/>
   <style name="Global" foreground="#9aa7d6"/>
   <style name="Field" foreground="#8baa41"/>
@@ -73,7 +73,7 @@
   <style name="WarningContext" underlineColor="#d6c545" underlineStyle="DotLine"/>
   <style name="Error" underlineColor="#d65645" underlineStyle="SingleUnderline"/>
   <style name="ErrorContext" underlineColor="#d65645" underlineStyle="DotLine"/>
-  <style name="Declaration"/>
+  <style name="Declaration" foreground="#ff8000"/>
   <style name="FunctionDefinition" foreground="#ff8000"/>
   <style name="OutputArgument" italic="true"/>
   <style name="StaticMember" foreground="#8baa41"/>
