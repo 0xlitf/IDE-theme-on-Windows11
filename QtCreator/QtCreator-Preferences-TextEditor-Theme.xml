@@ -31,14 +31,14 @@
   <style name="Function" foreground="#ff8000" italic="true"/>
   <style name="Keyword" foreground="#45c6d6" italic="true"/>
   <style name="PrimitiveType" foreground="#569cd6"/>
-  <style name="Operator" foreground="#d6bb9a"/>
+  <style name="Operator" foreground="#45c6d6"/>
   <style name="Overloaded Operator" foreground="#00eaff"/>
   <style name="Punctuation" foreground="#ffffff"/>
   <style name="Preprocessor" foreground="#b0b0b0"/>
   <style name="Macro" foreground="#bd63c5"/>
   <style name="Label" foreground="#d6c540"/>
-  <style name="Comment" foreground="#57a64a" italic="true"/>
-  <style name="Doxygen.Comment" foreground="#5ebc8b" bold="true" italic="true"/>
+  <style name="Comment" foreground="#57a64a"/>
+  <style name="Doxygen.Comment" foreground="#5ebc8b" bold="true"/>
   <style name="Doxygen.Tag" foreground="#66a334"/>
   <style name="VisualWhitespace" foreground="#4c4d50"/>
   <style name="QmlLocalId" foreground="#9acfd6" italic="true"/>
